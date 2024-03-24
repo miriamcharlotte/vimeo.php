@@ -15,7 +15,7 @@
         "php": ">=7.1.0",
         "ext-curl": "*",
         "ext-json":"*",
-        "ankitpokhrel/tus-php": "^v1.0.0 || ^v2.3.0"
+        "ankitpokhrel/tus-php": "dev-master"
     },
     "autoload": {
         "psr-4": {
@@ -38,5 +38,11 @@
             "psalm",
             "phpunit"
         ]
-    }
+    },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/miriamcharlotte/tus-php"
+        }
+    ]
 }
