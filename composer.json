@@ -15,7 +15,7 @@
         "php": ">=7.1.0",
         "ext-curl": "*",
         "ext-json":"*",
-        "ankitpokhrel/tus-php": "dev-master"
+        "ankitpokhrel/tus-php": "dev-main"
     },
     "autoload": {
         "psr-4": {
